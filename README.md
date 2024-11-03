@@ -11,7 +11,7 @@
 
 ## **BOM**
 |Item                                       |Count  |Example|Link Status|
-|:---                                       |:---:  |:---:|
+|:---                                       |:---:  |:---:|:---:|
 |MCP23017 I2C Expander Breakout Board       |2      |[Link](https://www.aliexpress.com/item/1005002491319987.html?spm=a2g0o.productlist.0.0.69692ef16bL9AS&algo_pvid=409629d1-6323-42fb-83ee-a506b3168261&algo_exp_id=409629d1-6323-42fb-83ee-a506b3168261-25&pdp_ext_f=%7B%22sku_id%22%3A%2212000020851672976%22%7D)| Bad |
 |Pro Micro 5V 16MHz                         |1      |[Link](https://www.aliexpress.com/item/32768308647.html?spm=a2g0o.productlist.0.0.2607f202QTTq67&algo_pvid=7ec29e4c-daf6-41db-8152-19ac2f65dfd9&algo_exp_id=7ec29e4c-daf6-41db-8152-19ac2f65dfd9-0)| Good |
 |TRRS Socket PJ-320A                        |2      |[Link](https://www.aliexpress.com/item/4000661212458.html?spm=a2g0o.productlist.0.0.786215bcMDWN6j&algo_pvid=48175f89-cc7c-4d82-9240-efce3152adfa&algo_exp_id=48175f89-cc7c-4d82-9240-efce3152adfa-2)|Good |
