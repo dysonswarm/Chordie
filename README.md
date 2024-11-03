@@ -10,18 +10,18 @@
 ### Chordie is a chording keyboard heavily inspired by [gBoards' Ginny keyboard](https://www.gboards.ca/product/ginni) running on awesome chording engine by [DennyTom](https://github.com/DennyTom/qmk_firmware/tree/feature/buttery_engine_v2/users/dennytom/chording_engine). It supports all 104 keys found on normal keyboards and much more in large part thanks to [ASETNIOP](http://asetniop.com/) layout. For a complete experience it's also equipped with trackball. Except for the mouse sensor module whole assembly can be handwired in about 6 hours.
 
 ## **BOM**
-|Item                                       |Count  |Example|
+|Item                                       |Count  |Example|Link Status|
 |:---                                       |:---:  |:---:|
-|MCP23017 I2C Expander Breakout Board       |2      |[Link](https://www.aliexpress.com/item/1005002491319987.html?spm=a2g0o.productlist.0.0.69692ef16bL9AS&algo_pvid=409629d1-6323-42fb-83ee-a506b3168261&algo_exp_id=409629d1-6323-42fb-83ee-a506b3168261-25&pdp_ext_f=%7B%22sku_id%22%3A%2212000020851672976%22%7D)|
-|Pro Micro 5V 16MHz                         |1      |[Link](https://www.aliexpress.com/item/32768308647.html?spm=a2g0o.productlist.0.0.2607f202QTTq67&algo_pvid=7ec29e4c-daf6-41db-8152-19ac2f65dfd9&algo_exp_id=7ec29e4c-daf6-41db-8152-19ac2f65dfd9-0)|
-|TRRS Socket PJ-320A                        |2      |[Link](https://www.aliexpress.com/item/4000661212458.html?spm=a2g0o.productlist.0.0.786215bcMDWN6j&algo_pvid=48175f89-cc7c-4d82-9240-efce3152adfa&algo_exp_id=48175f89-cc7c-4d82-9240-efce3152adfa-2)|
-|TRRS Cable Male to Male 0.5m               |1      |[Link](https://www.aliexpress.com/item/32905903526.html?spm=a2g0o.productlist.0.0.4dc47529QkykEs&algo_pvid=9cf4583a-296e-42ce-8e4a-b7ea884c7d69&algo_exp_id=9cf4583a-296e-42ce-8e4a-b7ea884c7d69-0)|
-|Enameled copper wire 0.2mm 10m             |1      |[Link](https://www.aliexpress.com/item/1005003799096513.html?spm=a2g0o.order_list.order_list_main.26.21ef18020rLkLI)|
-|5mm kapton tape                            |1      |[Link](https://www.aliexpress.com/item/4000808659339.html?spm=a2g0o.order_list.order_list_main.86.21ef18020rLkLI)|
-|EVQ-WGD001 encoder with switch             |1      |[Link](https://www.aliexpress.com/item/4001293888953.html?spm=a2g0o.productlist.0.0.118759fcSeFGBC&algo_pvid=847610a8-18a5-4fa9-a57b-980ad6205089&algo_exp_id=847610a8-18a5-4fa9-a57b-980ad6205089-0)|
-|Kailh Choc V1 25g or 20g MX switch         |16     |[Link](https://www.aliexpress.com/item/4000907409650.html?spm=a2g0o.store_pc_groupList.8148356.11.606939a66Tvk6L)|
-|Choc/MX keycaps 1u                         |10     |[Link](https://www.aliexpress.com/item/32979973961.html?spm=a2g0o.store_pc_groupList.8148356.21.1b9d36a4Coe1f0)|
-|Choc/MX keycaps 1.5u                       |6      |[Link](https://www.aliexpress.com/item/4000135705283.html?spm=a2g0o.store_pc_groupList.8148356.31.5b1136a4d8gvZK)|
+|MCP23017 I2C Expander Breakout Board       |2      |[Link](https://www.aliexpress.com/item/1005002491319987.html?spm=a2g0o.productlist.0.0.69692ef16bL9AS&algo_pvid=409629d1-6323-42fb-83ee-a506b3168261&algo_exp_id=409629d1-6323-42fb-83ee-a506b3168261-25&pdp_ext_f=%7B%22sku_id%22%3A%2212000020851672976%22%7D)| Bad |
+|Pro Micro 5V 16MHz                         |1      |[Link](https://www.aliexpress.com/item/32768308647.html?spm=a2g0o.productlist.0.0.2607f202QTTq67&algo_pvid=7ec29e4c-daf6-41db-8152-19ac2f65dfd9&algo_exp_id=7ec29e4c-daf6-41db-8152-19ac2f65dfd9-0)| Good |
+|TRRS Socket PJ-320A                        |2      |[Link](https://www.aliexpress.com/item/4000661212458.html?spm=a2g0o.productlist.0.0.786215bcMDWN6j&algo_pvid=48175f89-cc7c-4d82-9240-efce3152adfa&algo_exp_id=48175f89-cc7c-4d82-9240-efce3152adfa-2)|Good |
+|TRRS Cable Male to Male 0.5m               |1      |[Link](https://www.aliexpress.com/item/32905903526.html?spm=a2g0o.productlist.0.0.4dc47529QkykEs&algo_pvid=9cf4583a-296e-42ce-8e4a-b7ea884c7d69&algo_exp_id=9cf4583a-296e-42ce-8e4a-b7ea884c7d69-0)|Good |
+|Enameled copper wire 0.2mm 10m             |1      |[Link](https://www.aliexpress.com/item/1005003799096513.html?spm=a2g0o.order_list.order_list_main.26.21ef18020rLkLI)|Good |
+|5mm kapton tape                            |1      |[Link](https://www.aliexpress.com/item/4000808659339.html?spm=a2g0o.order_list.order_list_main.86.21ef18020rLkLI)|Good |
+|EVQ-WGD001 encoder with switch             |1      |[Link](https://www.aliexpress.com/item/4001293888953.html?spm=a2g0o.productlist.0.0.118759fcSeFGBC&algo_pvid=847610a8-18a5-4fa9-a57b-980ad6205089&algo_exp_id=847610a8-18a5-4fa9-a57b-980ad6205089-0)|Bad |
+|Kailh Choc V1 25g or 20g MX switch         |16     |[Link](https://www.aliexpress.com/item/4000907409650.html?spm=a2g0o.store_pc_groupList.8148356.11.606939a66Tvk6L)|Good |
+|Choc/MX keycaps 1u                         |10     |[Link](https://www.aliexpress.com/item/32979973961.html?spm=a2g0o.store_pc_groupList.8148356.21.1b9d36a4Coe1f0)|Bad |
+|Choc/MX keycaps 1.5u                       |6      |[Link](https://www.aliexpress.com/item/4000135705283.html?spm=a2g0o.store_pc_groupList.8148356.31.5b1136a4d8gvZK)|Bad |
 |8mmx1mm antislip pads                      |14     |[Link](https://www.aliexpress.com/item/32767105328.html?spm=a2g0o.order_list.order_list_main.5.4f631802SBcIju)|
 |ZrO2 bearing ball                          |3      |[Link](https://www.aliexpress.com/item/4000140957504.html?spm=a2g0o.order_list.order_list_main.66.21ef18020rLkLI)|
 |M570/Ergo 34mm trackball ball              |1      |[Link](https://www.aliexpress.com/item/1005003007477853.html?spm=a2g0o.productlist.0.0.5c2375b6zAYly4&algo_pvid=002d0afb-2191-423d-83ef-9072c89420e0&algo_exp_id=002d0afb-2191-423d-83ef-9072c89420e0-3)|
